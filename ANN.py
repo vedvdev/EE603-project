@@ -4,7 +4,7 @@ import torch.nn as nn
 class ANN(nn.module):
     def __init__(self):
         super.__init__()
-        self.flatten=nn.flatten()
+        self.flatten=nn.Flatten()
         self.dense_layers= nn.Sequential(
             nn.Linear(64*313,512),
             nn.ReLU(),
