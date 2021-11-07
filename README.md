@@ -1,12 +1,12 @@
-#EE-603 project
+# EE-603 project
 This repository contains the code for project of the course EE-603 Machine Learning for signal Processing
-
-##Contents
+ 
+## Contents
 1. [Introduction](#introduction)
 2. [Data](#data)
 3. [Results](#results)
 
-##Introduction
+## Introduction
 This project consists of exploring solution of two problems 
 1. Audio Classification - Classes considered in this project are - speech,music,both simultaneously
 2. Audio tagging- In this problem we have to tag the start and end of speech or music in each audio file.
@@ -22,11 +22,11 @@ The techniques which have been used in this project are :
    ii. RNNs
    iii. RNN with CNNs
 
-##Data
+## Data
 Data considered of 10 second audio files each of which have been strongly labelled. In classification problem only class has been inferred.
 In audio tagging problem the output is for the form [{"start_time":start_time,"end_time":end_time, "class":class}]
 
-##Results
+## Results
 1.Classification
 | Methods | Accuracy | F1-score|
 |---|---|---|
